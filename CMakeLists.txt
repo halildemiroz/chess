@@ -16,5 +16,6 @@ link_libraries(SDL2 SDL2main SDL2_image SDL2_ttf)
 
 add_executable(chess 
 	src/main.c
-	src/game.c)
+	src/game.c
+	src/board.c)
 
